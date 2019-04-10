@@ -21,7 +21,7 @@ HRNetV2 ImageNet pretrained models are now available!
 ## Quick start
 ### Install
 1. Install PyTorch=0.4.1 following the [official instructions](https://pytorch.org/)
-2. git clone https://github.com/Jingdong-Lab/HRNet-Image-Classification
+2. git clone https://github.com/HRNet/HRNet-Image-Classification
 3. Install dependencies: pip install -r requirements.txt
 
 ### Data preparation
