@@ -71,3 +71,6 @@ If you find this work or code is helpful in your research, please cite:
   year={2019}
 }
 ````
+
+## Reference
+[1] Deep High-Resolution Representation Learning for Human Pose Estimation. Ke Sun, Bin Xiao, Dong Liu, and Jingdong Wang. CVPR 2019. [download](https://arxiv.org/pdf/1902.09212.pdf)
