@@ -38,7 +38,7 @@ from utils.utils import create_logger
 
 
 def parse_args():
-    parser = argparse.ArgumentParser(description='Train keypoints network')
+    parser = argparse.ArgumentParser(description='Train classification network')
     
     parser.add_argument('--cfg',
                         help='experiment configure file name',
