@@ -31,19 +31,16 @@ https://github.com/pytorch/examples/tree/master/imagenet
 The data should be under ./data/imagenet/images/.
 
 ### Train and test
-Please specify the configuration file, the directory for data and the directory for saving log files and models.
-````bash
-bash train.sh --cfg <CONFIG-FILE> --dataDir <DATA-DIR> --logDir <LOG-DIR> --modelDir <MODEL-DIR>
-````
+Please specify the configuration file.
 
 For example, train the HRNet-W18 on ImageNet with a batch size of 128 on 4 GPUs:
 ````bash
-python tools/train.py --cfg experiments/cls_hrnet_w18_sgd_lr5e-2_wd1e-4_bs32_x100.yaml --dataDir ./data/ --logDir ./log/ --modelDir ./output/
+python tools/train.py --cfg experiments/cls_hrnet_w18_sgd_lr5e-2_wd1e-4_bs32_x100.yaml
 ````
 
 For example, test the HRNet-W18 on ImageNet on 4 GPUs:
 ````bash
-python tools/valid.py --cfg experiments/cls_hrnet_w18_sgd_lr5e-2_wd1e-4_bs32_x100.yaml --dataDir ./data/ --testModel hrnetv2_w18_imagenet_pretrained.pth
+python tools/valid.py --cfg experiments/cls_hrnet_w18_sgd_lr5e-2_wd1e-4_bs32_x100.yaml --testModel hrnetv2_w18_imagenet_pretrained.pth
 ````
 
 ## Other applications of HRNet
