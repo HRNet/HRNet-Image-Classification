@@ -11,12 +11,12 @@ HRNetV2 ImageNet pretrained models are now available!
 
 | model |#Params | GFLOPs |top-1 error| top-5 error| Link |
 | :--: | :--: | :--: | :--: | :--: | :--: |
-| HRNet-W18-C | 21.3M | 3.99 | 23.2% | 6.6% |[OneDrive](https://1drv.ms/u/s!Aus8VCZ_C_33cMkPimlmClRvmpw)/[BaiduYun(Access Code:jm34)]( https://pan.baidu.com/s/1B88oBeb-fOuDsAbirFUKZg)|
-| HRNet-W30-C | 37.7M | 7.55 | 21.8% | 5.8% |[OneDrive](https://1drv.ms/u/s!Aus8VCZ_C_33cQoACCEfrzcSaVI)|
-| HRNet-W32-C | 41.2M | 8.31 | 21.5% | 5.8% |[OneDrive](https://1drv.ms/u/s!Aus8VCZ_C_33dYBMemi9xOUFR0w)|
-| HRNet-W40-C | 57.6M | 11.8 | 21.1% | 5.5% |[OneDrive](https://1drv.ms/u/s!Aus8VCZ_C_33ck0gvo5jfoWBOPo)|
-| HRNet-W44-C | 67.1M | 13.9 | 21.1% | 5.6% |[OneDrive](https://1drv.ms/u/s!Aus8VCZ_C_33czZQ0woUb980gRs)|
-| HRNet-W48-C | 77.5M | 16.1 | 20.7% | 5.5% |[OneDrive](https://1drv.ms/u/s!Aus8VCZ_C_33dKvqI6pBZlifgJk)|
+| HRNet-W18-C | 21.3M | 3.99 | 23.2% | 6.6% |[OneDrive](https://1drv.ms/u/s!Aus8VCZ_C_33cMkPimlmClRvmpw)/[BaiduYun(Access Code:r5xn)](https://pan.baidu.com/s/1Px_g1E2BLVRkKC5t-b-R5Q)|
+| HRNet-W30-C | 37.7M | 7.55 | 21.8% | 5.8% |[OneDrive](https://1drv.ms/u/s!Aus8VCZ_C_33cQoACCEfrzcSaVI)/[BaiduYun(Access Code:ajc1)](https://pan.baidu.com/s/1yEz7hKaJT-H7eHLteAotbQ)|
+| HRNet-W32-C | 41.2M | 8.31 | 21.5% | 5.8% |[OneDrive](https://1drv.ms/u/s!Aus8VCZ_C_33dYBMemi9xOUFR0w)/[BaiduYun(Access Code:itc1)](https://pan.baidu.com/s/1xn92PSCg5KtXkKcnnLOycw)||
+| HRNet-W40-C | 57.6M | 11.8 | 21.1% | 5.5% |[OneDrive](https://1drv.ms/u/s!Aus8VCZ_C_33ck0gvo5jfoWBOPo)/[BaiduYun(Access Code:i58x)](https://pan.baidu.com/s/1DD3WKxgLM1jawR87WdAtsw)|
+| HRNet-W44-C | 67.1M | 13.9 | 21.1% | 5.6% |[OneDrive](https://1drv.ms/u/s!Aus8VCZ_C_33czZQ0woUb980gRs)/[BaiduYun(Access Code:3imd)](https://pan.baidu.com/s/1F679dvz9iJ8aFAp6YKr9Rw)|
+| HRNet-W48-C | 77.5M | 16.1 | 20.7% | 5.5% |[OneDrive](https://1drv.ms/u/s!Aus8VCZ_C_33dKvqI6pBZlifgJk)/[BaiduYun(Access Code:68g2)](https://pan.baidu.com/s/13b8srQn8ARF9zHsaxvpRWA)|
 
 ## Quick start
 ### Install
