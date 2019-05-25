@@ -49,7 +49,7 @@ python tools/valid.py --cfg experiments/cls_hrnet_w18_sgd_lr5e-2_wd1e-4_bs32_x10
 * [Human pose estimation](https://github.com/leoxiaobin/deep-high-resolution-net.pytorch)
 * [Semantic segmentation](https://github.com/HRNet/HRNet-Semantic-Segmentation)
 * [Object detection](https://github.com/HRNet/HRNet-Object-Detection)
-* [Facial landmark detection](https://github.com/HRNet/HRNet-Facial-Landmark-Detection) (coming soon)
+* [Facial landmark detection](https://github.com/HRNet/HRNet-Facial-Landmark-Detection)
 
 ## Citation
 If you find this work or code is helpful in your research, please cite:
