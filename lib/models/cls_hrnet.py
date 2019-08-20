@@ -474,9 +474,12 @@ class HighResolutionNet(nn.Module):
 
         y = self.final_layer(y)
 
-        y = F.avg_pool2d(y, kernel_size=y.size()
-                             [2:]).view(y.size(0), -1)
-            
+        if torch._C._get_tracing_state():
+            y = y.flatten(start_dim=2).mean(dim=2)
+        else:
+            y = F.avg_pool2d(y, kernel_size=y.size()
+                                 [2:]).view(y.size(0), -1)
+
         y = self.classifier(y)
 
         return y
