@@ -1,9 +1,9 @@
 # High-resolution networks (HRNets) for Image classification
 
 ## News
-- TensoFlow implemenation https://github.com/yuanyuanli85/tf-hrnet. Thanks VictorLi (https://github.com/yuanyuanli85)!
+- TensoFlow implemenation available at https://github.com/yuanyuanli85/tf-hrnet. Thanks VictorLi (https://github.com/yuanyuanli85)!
 
-- Enable ONNX export after fixing issue. Thanks Baowen Bao (https://github.com/BowenBao)!
+- ONNX export enabled after fixing issues. Thanks Baowen Bao (https://github.com/BowenBao)!
 
 ## Introduction
 This is the official code of [high-resolution representations for ImageNet classification](https://arxiv.org/abs/1904.04514). 
