@@ -1,5 +1,10 @@
 # High-resolution networks (HRNets) for Image classification
 
+## News
+- TensoFlow implemenation https://github.com/yuanyuanli85/tf-hrnet. Thanks VictorLi (https://github.com/yuanyuanli85)!
+
+- Enable ONNX export after fixing issue. Thanks Baowen Bao (https://github.com/BowenBao)!
+
 ## Introduction
 This is the official code of [high-resolution representations for ImageNet classification](https://arxiv.org/abs/1904.04514). 
 We augment the HRNet with a classification head shown in the figure below. First, the four-resolution feature maps are fed into a bottleneck and the number of output channels are increased to 128, 256, 512, and 1024, respectively. Then, we downsample the high-resolution representations by a 2-strided 3x3 convolution outputting 256 channels and add them to the representations of the second-high-resolution representations. This process is repeated two times to get 1024 channels over the small resolution. Last, we transform 1024 channels to 2048 channels through a 1x1 convolution, followed by a global average pooling operation. The output 2048-dimensional representation is fed into the classifier.
