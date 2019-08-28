@@ -11,6 +11,15 @@ MODEL:
     - 224
     - 224
   EXTRA:
+    STAGE1:
+      NUM_MODULES: 1
+      NUM_RANCHES: 1
+      BLOCK: BOTTLENECK
+      NUM_BLOCKS:
+      - 4
+      NUM_CHANNELS:
+      - 64
+      FUSE_METHOD: SUM
     STAGE2:
       NUM_MODULES: 1
       NUM_BRANCHES: 2
