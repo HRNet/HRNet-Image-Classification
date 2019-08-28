@@ -1,7 +1,7 @@
 # High-resolution networks (HRNets) for Image classification
 
 ## News
-- The two small models are provided. #parameters and GFLOPs are similar to ResNet18.
+- Per request, we provide two small HRNet models. #parameters and GFLOPs are similar to ResNet18. The segmentation resutls using the two small models are also available at https://github.com/HRNet/HRNet-Semantic-Segmentation.
 
 - TensoFlow implemenation available at https://github.com/yuanyuanli85/tf-hrnet. Thanks [VictorLi](https://github.com/yuanyuanli85)!
 
