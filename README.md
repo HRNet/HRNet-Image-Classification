@@ -1,7 +1,7 @@
 # High-resolution networks (HRNets) for Image classification
 
 ## News
-- The two small models are provided, which also achieves good performance on other tasks, e.g. segmentation.
+- The two small models are provided. 
 
 - TensoFlow implemenation available at https://github.com/yuanyuanli85/tf-hrnet. Thanks [VictorLi](https://github.com/yuanyuanli85)!
 
