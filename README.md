@@ -1,6 +1,9 @@
 # High-resolution networks (HRNets) for Image classification
 
 ## News
+
+- [2021/01/20] Add some stronger ImageNet pretrained models, e.g., the HRNet_W48_C_ssld_pretrained.pth achieved top-1 acc 83.6%.
+
 - [2020/03/13] Our paper is accepted by TPAMI: [Deep High-Resolution Representation Learning for Visual Recognition](https://arxiv.org/pdf/1908.07919.pdf).
 
 - Per request, we provide two small HRNet models. #parameters and GFLOPs are similar to ResNet18. The segmentation resutls using the two small models are also available at https://github.com/HRNet/HRNet-Semantic-Segmentation.
@@ -29,6 +32,15 @@ HRNetV2 ImageNet pretrained models are now available!
 | HRNet-W44-C | 67.1M | 13.9 | 21.1% | 5.6% |[OneDrive](https://1drv.ms/u/s!Aus8VCZ_C_33czZQ0woUb980gRs)/[BaiduYun(Access Code:3imd)](https://pan.baidu.com/s/1F679dvz9iJ8aFAp6YKr9Rw)|
 | HRNet-W48-C | 77.5M | 16.1 | 20.7% | 5.5% |[OneDrive](https://1drv.ms/u/s!Aus8VCZ_C_33dKvqI6pBZlifgJk)/[BaiduYun(Access Code:68g2)](https://pan.baidu.com/s/13b8srQn8ARF9zHsaxvpRWA)|
 | HRNet-W64-C | 128.1M | 26.9 | 20.5% | 5.4% |[OneDrive](https://1drv.ms/u/s!Aus8VCZ_C_33gQbJsUPTIj3rQu99)/[BaiduYun(Access Code:6kw4)](https://pan.baidu.com/s/16ycW99VAYat3fHjgKpUXvQ)|
+
+Newly added checkpoints:
+
+| model |#Params | GFLOPs |top-1 error |  Link |
+| :--: | :--: | :--: | :--: | :--: |
+| HRNet-W18-C (w/ CosineLR + CutMix + 300epochs) | 21.3M | 3.99 | 22.1%  | [Link](https://github.com/HRNet/HRNet-Image-Classification/releases/download/PretrainedWeights/HRNet_W18_C_cosinelr_cutmix_300epoch.pth.tar)
+| HRNet-W48-C (w/ CosineLR + CutMix + 300epochs) | 77.5M | 16.1 | 18.9%  | [Link](https://github.com/HRNet/HRNet-Image-Classification/releases/download/PretrainedWeights/HRNet_W48_C_cosinelr_cutmix_300epoch.pth.tar)
+| HRNet-W18-C-ssld (converted from PaddlePaddle) | 21.3M | 3.99 | 18.8%  | [Link](https://github.com/HRNet/HRNet-Image-Classification/releases/download/PretrainedWeights/HRNet_W18_C_ssld_pretrained.pth)
+| HRNet-W48-C-ssld (converted from PaddlePaddle) | 77.5M | 16.1 | 16.4%  | [Link](https://github.com/HRNet/HRNet-Image-Classification/releases/download/PretrainedWeights/HRNet_W48_C_ssld_pretrained.pth)
 
 
 ## Quick start
