@@ -42,6 +42,8 @@ Newly added checkpoints:
 | HRNet-W18-C-ssld (converted from PaddlePaddle) | 21.3M | 3.99 | 18.8%  | [Link](https://github.com/HRNet/HRNet-Image-Classification/releases/download/PretrainedWeights/HRNet_W18_C_ssld_pretrained.pth)
 | HRNet-W48-C-ssld (converted from PaddlePaddle) | 77.5M | 16.1 | 16.4%  | [Link](https://github.com/HRNet/HRNet-Image-Classification/releases/download/PretrainedWeights/HRNet_W48_C_ssld_pretrained.pth)
 
+In the above Table, the first 2 checkpoints are trained with CosineLR, CutMix data augmentation and for longer epochs, i.e., 300epochs. The other two checkpoints are converted
+from [PaddleClas](https://github.com/PaddlePaddle/PaddleClas). Please refer to [SSLD tutorial](https://github.com/PaddlePaddle/PaddleClas/blob/dygraph/docs/en/advanced_tutorials/distillation/distillation_en.md#ssld) for more details.
 
 ## Quick start
 ### Install
