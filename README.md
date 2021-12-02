@@ -71,6 +71,7 @@ python tools/valid.py --cfg experiments/cls_hrnet_w18_sgd_lr5e-2_wd1e-4_bs32_x10
 ````
 
 ## Other applications of HRNet
+* [Person re-identification](https://github.com/layumi/Person_reID_baseline_pytorch)
 * [Human pose estimation](https://github.com/leoxiaobin/deep-high-resolution-net.pytorch)
 * [Semantic segmentation](https://github.com/HRNet/HRNet-Semantic-Segmentation)
 * [Object detection](https://github.com/HRNet/HRNet-Object-Detection)
